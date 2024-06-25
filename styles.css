@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.images img {
+    width: 175px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.poem {
+    max-width: 600px;
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.poem h2 {
+    font-family: Gabriola, serif;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.poem p {
+    font-family: Gabriola, serif;
+    font-size: 24px;
+    color: black;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.author {
+    font-family: Gabriola, serif;
+    font-size: 32px;
+    font-style: italic;
+    text-align: left;
+    color: black;
+    font-weight: bold; 
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 10px; 
+    margin: 0; 
+}
+
+.intro h2,
+.about h2,
+.contact-info h2 {
+    font-family: Garamond, serif;
+    font-size: 24px;
+    color: red;
+    text-align: center;
+}
+
+.intro p,
+.about p,
+.contact-info p {
+    font-family: Garamond, serif;
+    font-size: 24px;
+    color: black;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
